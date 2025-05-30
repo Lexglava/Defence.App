@@ -1,3 +1,5 @@
+name: apk
+
 on:
   push:
     branches: [ main ]
