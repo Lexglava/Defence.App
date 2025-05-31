@@ -234,7 +234,7 @@ class ResultsScreen(Screen):
         self.manager.current = 'start'
 
 
-class Main(App):
+class MainApp(App):
     def build(self):
         Window.clearcolor = (0.95, 0.97, 1, 1)
         sm = ScreenManager()
@@ -244,4 +244,4 @@ class Main(App):
         return sm
 
 if __name__ == '__main__':
-    Main().run()
+    MainApp().run()
